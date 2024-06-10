@@ -1,0 +1,135 @@
+/* src/global.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #333;
+    background-color: #f3f2f0;
+    /* background-color: blue; */
+}
+
+.logo {
+    width: 100px;
+    margin: 2rem 0rem 0rem 5rem;
+}
+
+.logo2 {
+    width: 90px;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+p {
+    font-size: 13px;
+}
+
+.wrapper {
+    width: 35%;
+    height: fit-content;
+    background: white;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.profile {
+    margin: 15px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.input>input {
+    padding: 17px 12px;
+    border: 1px solid #aba8a8;
+    border-radius: 5px;
+    /* border-color: #a7a3a3; */
+}
+
+.signin {
+    text-decoration: none;
+    background: #008fce;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.divider {
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border: 1px solid #333;
+    padding: 15px;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.agreement {
+    padding: 20px 10px;
+    font-weight: 700;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        display: inline-block;
+    }
+    p {
+        font-size: 10px;
+    }
+    .wrapper {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .link {
+        padding: 8px 15px;
+    }
+    .agreement {
+        padding: 20px 10px;
+        width: 95%;
+    }
+}

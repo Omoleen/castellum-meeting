@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 1rem 4rem;
+}
+
+.App-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.join-container {
+  margin: 50px auto;
+  width: 400px;
+  text-align: center;
+  padding: 5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.join-container>p{
+  text-align: left;
+  padding-left: 2.5rem;
+  margin-top: 1.2rem;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-field {
+  width: 75%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #898383;
+ 
+}
+
+.join-button {
+  width: 80%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}
+
+.signin-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 480px) {
+  .App-header {
+   display: none;
+  }
+  .join-container {
+    margin: 50px auto;
+    width: 80%;
+  
+   
+  }
+  .App {
+
+    padding: 1rem 0rem;
+  }
+
+  .input-field {
+    width: 70%;
+  
+   
+  }
+  
+  
+
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Notification Email</title>
+    <style>
+        body {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            color: #333;
+            background-color: #f3f2f0;
+        }
+        
+        p {
+            font-size: 13px;
+        }
+        
+        .container {
+            width: 35%;
+            margin: 20px auto;
+        }
+        
+        .content {
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .LinkedIn {
+            width: 70px;
+        }
+        
+        .avatar {
+            width: 30px;
+            border-radius: 50%;
+        }
+        
+        .content-info {
+            margin-top: 3rem;
+            text-align: center;
+        }
+        
+        .post-impression {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        
+        .analytics {
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            background: #008fce;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 40px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .content-p {
+            width: 75%;
+            margin: 0 auto;
+            border: 1px solid #adacac;
+            padding: 0px 10px;
+            border-radius: 10px;
+        }
+        
+        .content-p p {
+            font-size: 12px;
+            text-align: left;
+        }
+        
+        .show-more {
+            font-size: 12px;
+            font-weight: bold;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 40px;
+            border: 1px solid #adacac;
+            cursor: pointer;
+            color: #333;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        
+        .footer-header {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .footer-header p {
+            font-weight: bold;
+        }
+        
+        .footer-header img {
+            width: 20%;
+        }
+        
+        .store-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -2rem;
+        }
+        
+        .footer-bottom {
+            padding: 20px;
+            font-size: 14px;
+        }
+        
+        @media (min-width: 320px) and (max-width: 768px) {
+            p {
+                font-size: 10px;
+            }
+            .container {
+                width: 80%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="content">
+            <div class="header">
+                <img class="LinkedIn" src="Linkedin.png" alt="LinkedIn">
+                <img class="avatar" src="avatar.jpg" alt="avatar">
+            </div>
+            <div class="content-info">
+                <p>Last week, your post received</p>
+                <p class="post-impression">100k</p>
+                <p>post impression</p>
+                <a href="/signin.html" class="analytics">view your analytics</a>
+                <p>Top performing post last week</p>
+                <div class="content-p">
+                    <p>imply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                </div>
+                <a href="/signin.html" class="show-more">show more</a>
+
+            </div>
+
+        </div>
+        <footer>
+            <div class="footer-header">
+                <p>Never miss an update with the LinkedIn app</p>
+                <div class="store-img">
+                    <img src="googleplay.png" alt="google-store">
+                    <img src="applestore.png" alt="apple-store">
+                </div>
+                <hr style="width:70%;text-align:center;margin-top: -1rem;">
+
+            </div>
+            <div class="footer-bottom">
+                <p>This email was intended for Diepreye Mses-Gombo (Special Agent | UI/UX | Engineer | Videgrapher)</p>
+                <p style="color:#008fce">Learn why we include this.</p>
+                <p>You are receiving LinkedIn notification emails.</p>
+
+                <p style="color:#008fce"> Unsubscribe . Help</p>
+                <img style="width:10%; margin-top: -0.5rem;" src="LinkedIn.png" alt="LinkedIn">
+                <p style="margin-top: 0rem;">&copy; 2024 LinkedIn Corporation, 1000 West Maude Avenue, Sunnyvale, CA 94085. <br> LinkedIn and the LinkedIn logo are registered trademark of LinkedIn</p>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
